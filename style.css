@@ -8,10 +8,26 @@
     src: url(https://dl.dropboxusercontent.com/s/gnes3f4xl9if7dl/LINESeedJP_A_OTF_Rg.otf?dl=0);
 }
 
-div{
-    font-family:'RegularFont';
+.name{
+    font-family:'BoldFont';
+    text-align: center;
 }
 
-h1{
+.namedscprt{
+    font-family:'RegularFont';
+    text-align: center;
+}
+
+.Header{
+    display:block;
+    height: 3em;
+    padding: 0 .75em;
+    background-color: #000;
+}
+
+a{
+    color:white;
     font-family:'BoldFont';
+    font-size:2em;
+    text-decoration:none;
 }
