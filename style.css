@@ -1,3 +1,7 @@
+:root{
+    --headerH: 3em;
+}
+
 @font-face {
     font-family: BoldFont ;
     src: url(https://dl.dropboxusercontent.com/s/b3p4y4uwkim3fr0/LINESeedJP_A_OTF_Bd.otf?dl=0);
@@ -8,28 +12,47 @@
     src: url(https://dl.dropboxusercontent.com/s/gnes3f4xl9if7dl/LINESeedJP_A_OTF_Rg.otf?dl=0);
 }
 
-.name{
-    font-family:'BoldFont';
-    text-align: center;
-}
-
-.namedscprt{
-    font-family:'RegularFont';
-    text-align: center;
-}
+/*Header*/
 
 .Header{
-    display:block;
-    height: 3em;
-    padding: 0 .75em;
+    display:flex;
+    height:var(--headerH);
+    padding: 0.75em;
     background-color: #000;
+    justify-content:space-between;
 }
 
-a{
+.logo{
+    display: flex;
+    height:var(--headerH);
+    padding-right:0.5em;
+    color:#fff;
+    text-decoration:none;
+}
+
+nav{
+    display: inline-flex;
+}
+
+.menuitem{
+    margin-left: 1em;
+    color: #fff;
+    text-decoration: none;
+    width: max-content;
+    align-items:left;
+}
+
+li
+{
     color:white;
+    display: block;
+}
+
+a,#menuitem{
     font-family:'BoldFont';
     font-size:2em;
     text-decoration:none;
+    color:#fff;
 }
 
 ul {
@@ -93,6 +116,14 @@ nav,header{
     --border: rgb(238, 238, 238)
 }
 
-.logo,#menu {
-    display: flex;
+
+.name{
+    font-family:'BoldFont';
+    text-align: center;
 }
+
+.namedscprt{
+    font-family:'RegularFont';
+    text-align: center;
+}
+
