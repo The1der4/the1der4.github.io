@@ -2,6 +2,11 @@
     --headerH: 3em;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: BoldFont ;
     src: url(https://dl.dropboxusercontent.com/s/b3p4y4uwkim3fr0/LINESeedJP_A_OTF_Bd.otf?dl=0);
@@ -14,108 +19,11 @@
 
 /*Header*/
 
-.Header{
-    display:flex;
-    height:var(--headerH);
-    padding: 0.75em;
-    background-color: #000;
-    justify-content:space-between;
-}
-
-.logo{
-    display: flex;
-    height:var(--headerH);
-    padding-right:0.5em;
-    color:#fff;
-    text-decoration:none;
-}
-
-nav{
-    display: inline-flex;
-}
-
-.menuitem{
-    margin-left: 1em;
-    color: #fff;
-    text-decoration: none;
-    width: max-content;
-    align-items:left;
-}
-
-li
-{
-    color:white;
+.header {
     display: block;
+    width: 100%;
+    height:72px;
 }
-
-a,#menuitem{
-    font-family:'BoldFont';
-    font-size:2em;
-    text-decoration:none;
-    color:#fff;
-}
-
-ul {
-    padding: 0;
-}
-
-#menu {
-    display: flex;
-    margin: auto;
-    list-style: none;
-    word-break: keep-all;
-    overflow-x: auto;
-    white-space: nowrap
-}
-
-#menu li+li {
-    margin-inline-start:var(--gap)}
-
-#menu a {
-    font-size: 16px;
-}
-
-#menu .active {
-    font-weight: 500;
-    border-bottom: 2px solid
-}
-
-nav,header{
-    display:block;
-}
-
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-inline-start:auto;
-    margin-inline-end:auto;
-    max-height: 3em;
-}
-
-.nav a {
-    display: block
-}
-
-:root {
-    --gap: 24px;
-    --content-gap: 20px;
-    --nav-width: 1024px;
-    --main-width: 720px;
-    --header-height: 60px;
-    --footer-height: 60px;
-    --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
-    --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238)
-}
-
 
 .name{
     font-family:'BoldFont';
@@ -126,4 +34,3 @@ nav,header{
     font-family:'RegularFont';
     text-align: center;
 }
-
