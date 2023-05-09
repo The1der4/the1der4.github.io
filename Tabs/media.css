@@ -1,0 +1,82 @@
+:root{
+    --headerH: 3em;
+}
+
+@font-face {
+    font-family: BoldFont ;
+    src: url(https://dl.dropboxusercontent.com/s/b3p4y4uwkim3fr0/LINESeedJP_A_OTF_Bd.otf?dl=0);
+}
+
+@font-face {
+    font-family: RegularFont ;
+    src: url(https://dl.dropboxusercontent.com/s/gnes3f4xl9if7dl/LINESeedJP_A_OTF_Rg.otf?dl=0);
+}
+
+/*Header*/
+
+.Header{
+    display:flex;
+    height:var(--headerH);
+    padding: 0.75em;
+    background-color: #000;
+    justify-content:space-between;
+}
+
+.logo{
+    display: flex;
+    height:var(--headerH);
+    padding-right:0.5em;
+    color:#fff;
+    text-decoration:none;
+}
+
+nav{
+    display: inline-flex;
+    padding:0;
+    margin:0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left:auto;
+}
+
+.menuitem{
+    margin-left: 1em;
+    color: #fff;
+    text-decoration: none;
+    width: max-content;
+    align-items:left;
+}
+
+.ItemLink{
+    text-decoration:none;
+    color:#fff;
+}
+
+li{
+    color:white;
+    display: block;
+}
+
+a,#menuitem{
+    font-family:'BoldFont';
+    font-size:2em;
+    text-decoration:none;
+    color:#fff;
+}
+
+.name{
+    font-family:'BoldFont';
+    text-align: center;
+}
+
+.namedscprt{
+    font-family:'RegularFont';
+    text-align: center;
+}
