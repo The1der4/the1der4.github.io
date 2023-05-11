@@ -30,7 +30,8 @@ body {
     text-align: center;
 }
 
-.namedscprt{
+#namescprt{
     font-family:'RegularFont';
     text-align: center;
+    transition: opacity 0.5s;
 }
