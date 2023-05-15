@@ -9,40 +9,12 @@ body {
 
 @font-face {
     font-family: BoldFont ;
-    src: local(LINESeedSans_Bd) format(otf);
+    src:url(/Media/Font/LINESeedSans_A_Bd.otf);
 }
 
 @font-face {
     font-family: RegularFont ;
-    src:local(LINESeedSans_Rg) format(otf);
-}
-
-/*Header*/
-
-.header {
-    display: block;
-    width: 100%;
-    height:72px;
-}
-
-.name{
-    font-family:'BoldFont';
-    text-align: center;
-}
-
-#namescprt{
-    font-family:'RegularFont';
-    text-align: center;
-    transition: opacity 0.5s;
-}
-
-:root{
-    --headerH: 3em;
-}
-
-body {
-    margin: 0;
-    padding: 0;
+    src:url(/Media/Font/LINESeedSans_A_Rg.otf);
 }
 
 @font-face {
@@ -55,66 +27,23 @@ body {
     src: url(https://dl.dropboxusercontent.com/s/gnes3f4xl9if7dl/LINESeedJP_A_OTF_Rg.otf?dl=0);
 }
 
-/*Header*/
-
-.Header{
-    display:flex;
-    height:var(--headerH);
-    padding: 0.75em;
-    background-color: #000;
-    justify-content:space-between;
-    margin:0;
-}
-
-.logo{
-    display: flex;
-    height:var(--headerH);
-    padding-right:0.5em;
-    color:#fff;
-    text-decoration:none;
-}
-
-nav{
-    display: inline-flex;
-    padding:0;
-    margin:0;
-}
-
-.nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    margin-left:auto;
-    z-index:1;
-}
-
-.menuitem{
-    margin-left: 1em;
-    color: #fff;
-    text-decoration: none;
-    width: max-content;
-    align-items:left;
-}
-
-.ItemLink{
-    text-decoration:none;
-    color:#fff;
-    z-index:2;
-}
-
-li{
-    color:white;
+.header{
     display: block;
+    width: 100%;
+    height:72px;
 }
 
-a,#menuitem{
+.name{
     font-family:'BoldFont';
-    font-size:2em;
-    text-decoration:none;
-    color:#fff;
+    text-align: center;
+    font-size:3em;
+    padding-bottom: 0.5em;
+}
+
+#namescprt{
+    font-family:'RegularFont';
+    text-align: center;
+    transition: opacity 0.5s;
 }
 
 img{
