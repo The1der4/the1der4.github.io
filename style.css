@@ -9,12 +9,12 @@ body {
 
 @font-face {
     font-family: BoldFont ;
-    src:url(/Media/Font/LINESeedSans_A_Bd.otf);
+    src:url(./Media/Font/LINESeedSans_A_Bd.otf);
 }
 
 @font-face {
     font-family: RegularFont ;
-    src:url(/Media/Font/LINESeedSans_A_Rg.otf);
+    src:url(./Media/Font/LINESeedSans_A_Rg.otf);
 }
 
 @font-face {
@@ -53,4 +53,3 @@ img{
     margin-right: auto;
     border-radius: 50%;
 }
-
