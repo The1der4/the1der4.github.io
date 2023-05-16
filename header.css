@@ -1,11 +1,11 @@
 @font-face {
     font-family: BoldFont ;
-    src: url(https://dl.dropboxusercontent.com/s/b3p4y4uwkim3fr0/LINESeedJP_A_OTF_Bd.otf?dl=0);
+    src:url(./Font/LINESeedSans_A_Bd.otf);
 }
 
 @font-face {
     font-family: RegularFont ;
-    src: url(https://dl.dropboxusercontent.com/s/gnes3f4xl9if7dl/LINESeedJP_A_OTF_Rg.otf?dl=0);
+    src:url(./Font/LINESeedSans_A_Rg.otf);
 }
 
 body {
