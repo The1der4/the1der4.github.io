@@ -31,3 +31,21 @@ body {
     text-align: center;
     font-size:1em;
 }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:black;
+    overflow:hidden;
+}
+
+canvas{
+    position: flex;
+    top:0;
+    left:0;
+    opacity: 0.4;
+}
